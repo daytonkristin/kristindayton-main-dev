@@ -21,6 +21,11 @@ I am currently developing **AV-Sec Architect**, a tool to automate **NIST 800-53
 - [ ] Finalize Python MVP for Network Scanning
 - [ ] Integrate Streamlit Compliance Dashboard
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-for-the-badge&logo=google-cloud&logoColor=white)
+![NIST](https://img.shields.io/badge/Compliance-NIST_800--53-red?style=for-the-badge)
+
+
 ---
 
 ## 🔗 Connect with Me
