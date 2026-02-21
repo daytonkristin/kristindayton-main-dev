@@ -1,22 +1,13 @@
-# 🛡️ Kristin Dayton | Founder & Product Manager
-
-### **Architecting the Human-Error Mitigation Layer for Institutional Finance**
-
-I am the architect behind **SteadyPath Pay**, focusing on solving the **"Anxiety Gap"** in high-stakes digital transactions. By integrating **Google Vertex AI** and the **Monolith Shield Protocol**, I build systems that prioritize human safety and institutional stability.
-
----
-
-### **🛰️ Current Mission: [SteadyPath Pay Alpha](https://github.com/kristindayton-main-dev/steadypath-alpha)**
-- **The Shield:** A 30-minute reversal window for immutable transactions.
-- **The Moat:** Vertex AI-driven behavioral biometrics for identity verification.
-- **The Engine:** 15/25/30/30 Waterfall Yield Harvesting.
-
-### **🛠️ Technical Stack**
-- **Architecture:** Monolith Shield, Microservices (Go/Python).
-- **Cloud:** Google Cloud Platform (Vertex AI, Secret Manager, Cloud Run).
-- **Identity:** Biometric Authentication & Cryptographic Safety Layers.
-
-### **🌑 Philosophy**
-Finance should be final, but never fatal. We build the "Undo" button for the modern enterprise.
-
-[SteadyPath Pay - Institutional Grade Security]
+🛡️ Cloud Computing Student @PurdueGlobal | Aspiring Cloud Security Architect | Building AV-Sec Architect: Automating NIST 800-53 RMF for AV Infrastructure.
+2. Pinning the Project
+Once you’ve created the av-sec-architect repository on your Pixel, you should "Pin" it to the top of your profile.
+How: On your main profile page, look for the "Customize your pins" button. Select your new project.
+Why: This tells everyone that this is your Priority 1 project. It shows you aren't just taking classes; you are innovating in a niche (AV Security) that most people haven't even thought of yet.
+3. The "Groundbreaking" Edge
+By including the specific version of NIST—Rev 5.2—in your documentation, you are signaling that you are aware of the most current standards in the industry. As of early 2026, Revision 5.2 focuses heavily on Software Integrity and Cyber Resiliency.
+Self-Correction: Earlier, we talked about "surviving" an attack. That is exactly what the new SA-24 control in Rev 5.2 is about. By listing this on your GitHub, you prove you're not just reading old textbooks.
+Final Checklist for Your Pixel
+[ ] Repo Created at github.com/new.
+[ ] README Updated with the Pitch we wrote.
+[ ] Bio Updated to show you are a "Cloud Security Architect."
+[ ] Project Pinned to the top of your profile
