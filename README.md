@@ -28,5 +28,6 @@ This project is an active collaboration between **Kristin Nicole Dayton** (Lead 
 ## Progress Tracking
 - [x] Project Vision and Architecture defined
 - [x] Governance and Logic models established
-- [ ] Python MVP for Network Discovery (In Progress)
-- [ ] Streamlit Compliance Dashboard development
+- [x] Python MVP for Network Discovery (`scanner.py`)
+- [x] Streamlit Compliance Dashboard (`app.py`)
+- [x] Logic-Based Risk Engine (`logic.py`)
