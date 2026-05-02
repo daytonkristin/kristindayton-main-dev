@@ -1,33 +1,63 @@
 # AV-Sec Architect
-### Automated RMF Compliance for Audiovisual Systems
+
+**NIST RMF Compliance Dashboard for Audiovisual Infrastructure**
+
+Automatically evaluates AV devices against NIST 800-53 controls and surfaces prioritized remediation steps.
 
 ---
 
-## Project Overview
-AV-Sec Architect is a **Compliance-as-Code** framework designed to automate the **NIST 800-53 Rev 5.2** Risk Management Framework (RMF) for cloud-integrated audiovisual infrastructure.
+## Run it
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Opens at http://localhost:8501
 
 ---
 
-## Core Development Partnership
-This project is an active collaboration between **Kristin Nicole Dayton** (Lead Architect) and **Gemini AI** (Technical Partner).
+## What you can do
 
-![Gemini AI Partner](https://img.shields.io/badge/Collaborator-Gemini_AI-8E75B2?style=flat-square&logo=google-gemini&logoColor=white)
+**Risk table** — all devices scored High / Medium / Low with RMF control mapping
 
-* **Architectural Lead:** Kristin Dayton provides the strategic vision, governance rules, and final review of all security controls.
-* **AI Partner:** Gemini 3 Flash provides technical research, Python templates, and NIST regulatory mapping.
+**Add a device** — use the sidebar form to add any AV device by name, IP, type, and room sensitivity
 
----
+**Export** — download the full risk report as CSV with one click
 
-## Key Technical Pillars
-* **Risk-Based Prioritization:** Logic-driven sorting of security vulnerabilities.
-* **Human-in-the-Loop Governance:** Mandatory human verification for high-impact security decisions.
-* **Automated Documentation:** Generation of audit-ready evidence for the ATO (Authorization to Operate) process.
+**Ask the assistant** — type a device name, risk level, or keyword (e.g. "camera", "high risk", "IA-5")
+
+**Network scan** — if nmap is installed, scan your network directly from the sidebar
 
 ---
 
-## Progress Tracking
-- [x] Project Vision and Architecture defined
-- [x] Governance and Logic models established
-- [x] Python MVP for Network Discovery (`scanner.py`)
-- [x] Streamlit Compliance Dashboard (`app.py`)
-- [x] Logic-Based Risk Engine (`logic.py`)
+## Risk rules (NIST RMF)
+
+| Condition | Severity | Control |
+|---|---|---|
+| High-sensitivity room | 🔴 High | AC-2 |
+| Camera device | 🟡 Medium | IA-5 |
+| Legacy/Old device | 🟡 Medium | SI-2 |
+| Default | 🟢 Low | — |
+
+---
+
+## Optional: enable network scanning
+
+```bash
+# macOS/Linux
+brew install nmap   # or: sudo apt install nmap
+pip install python-nmap
+
+# Windows
+# Download nmap from https://nmap.org/download.html
+pip install python-nmap
+```
+
+---
+
+## Test
+
+```bash
+python -m pytest tests/ -v
+```
